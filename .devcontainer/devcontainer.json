@@ -1,0 +1,16 @@
+{
+   "name": "rimutec-dev-php",
+   "dockerComposeFile": [
+      "docker-compose.yml"
+   ],
+   "service": "dev-php",
+   "workspaceFolder": "/src",
+   "extensions": [
+      "eamodio.gitlens",
+      "editorconfig.editorconfig",
+      "k--kato.docomment",
+      "shd101wyy.markdown-preview-enhanced"
+   ],
+   "remoteUser": "dev",
+   "shutdownAction": "stopCompose"
+}
