@@ -1,5 +1,5 @@
 {
-   "name": "rimutec-dev-php",
+   "name": "rimutec-php",
    "dockerComposeFile": [
       "docker-compose.yml"
    ],
