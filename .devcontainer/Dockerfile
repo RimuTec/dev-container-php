@@ -16,11 +16,7 @@ RUN apt-get update && \
 # You can safely remove the packages you don't want. [Manfred, 08oct2021]
 
 # Install git:
-# RUN apt-get update
 RUN apt-get install -y git
-
-# # Install Apache web server
-# RUN apt-get install -y apache2
 
 # Create non-root user (zero trust principle, least privileged principle)
 RUN groupadd -g 1000 -r dev && \
