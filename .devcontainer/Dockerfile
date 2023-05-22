@@ -1,5 +1,5 @@
-FROM php:8.1.1
-# Last version check on 17 Jan 2022. More recent version may be available
+FROM php:8.1.19
+# Last version check on 21 May 2022. More recent version may be available
 # from https://hub.docker.com/_/php
 
 RUN apt-get update && \
